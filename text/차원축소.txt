@@ -1,0 +1,17 @@
+차원 축소 
+입력의 수를 줄여서 속도를 높인다. 
+(중요도가 낮은 것)
+
+투영
+• 모든 훈련 샘플이 고차원 공간 안의 저 차원 부분 공간
+• Sub space (또는 가까이)에 놓여 있음
+
+주성분 분석 (PCA analysis)
+차원 축소 전에 중요한 부분에 대해 알아보는 분석
+주성분(principal component, PC)
+
+• 재구성 오차(reconstruction error) (원본과 복원의 차이)
+inverse_transform() 메서드를 사용하면 축소된 MNIST 데이터 집합을 다시 784개 차원으로 복원 
+
+
+
