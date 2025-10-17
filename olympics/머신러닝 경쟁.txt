@@ -1,0 +1,17 @@
+환경 고정 : 5가지
+
+에이전트 설정 가능. 
+
+상태: 
+
+행동 (전진, 후진, 회전) 
+
+보상(상: 골에 도착, 벽에 부딪히기 않기, 머무르지 않기, 상대 에이전트와 부딪히기 말기. / 벌: 스텝 수, 벽에 부딪히기(튕기기 가능-적당한 처벌 필요). ) 
+
+정책: ?
+
+모든 값 랜덤 넣고 다 찾기. 
+맵에 따른 행동 모두 최적값 따로 만들기. 
+# Correct evaluation command (after fixing CUDA)
+python evaluation_local.py --my_ai rl --opponent random --episodes_train 0 --episodes_eval 50 --map all --load
+--render
